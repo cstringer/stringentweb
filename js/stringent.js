@@ -20,7 +20,9 @@
   if (hash) {
     $("#" + hash + " h2").click();
 	} else {
-    $("#contact h2").click();
+    // show contact, but don't scroll to it
+    actElem = $("#contact h2");
+		$(actElem).parent().toggleClass("active").find(".section-content").show();
   }
 
   // handle window resize, hide/show section content
