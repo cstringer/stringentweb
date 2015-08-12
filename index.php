@@ -11,6 +11,8 @@ date_default_timezone_set('America/Chicago');
 
   <title>Stringent Studios &middot; Software Design</title>
   <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="/stringent/favicon.ico" />
   <link rel="stylesheet" href="/stringent/css/stringent.css" />
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
