@@ -11,18 +11,18 @@ date_default_timezone_set('America/Chicago');
 
   <title>Stringent Studios &middot; Software Design</title>
   <meta charset="utf-8" />
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="stylesheet" href="css/stringent.css" />
+  <link rel="shortcut icon" href="/stringent/favicon.ico" />
+  <link rel="stylesheet" href="/stringent/css/stringent.css" />
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="js/stringent.js"></script>
+  <script src="/stringent/js/stringent.js"></script>
 
  </head>
 
  <body>
 
   <header>
-   <img src="stringent-logo.png" />
+   <img src="/stringent/stringent-logo.png" />
    <h1>Stringent Studios</h1>
    <span class="subhead">Software &middot; Design</span>
   </header>
