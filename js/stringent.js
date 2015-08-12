@@ -1,7 +1,9 @@
 (function($) {
  $(document).ready( function() {
+
   var actElem = null;
 
+  // expand/collapse sections in reponsive mode
   $("section h2").on("click", function() {
    if ($(window).width() <= 480 && actElem != this) {
     if (actElem != null) {
@@ -13,8 +15,15 @@
    }
   });
 
-  $("#contact h2").click();
+  // reload section by location hash
+  var hash = window.location.hash.substr(1);
+  if (hash) {
+    $("#" + hash + " h2").click();
+	} else {
+    $("#contact h2").click();
+  }
 
+  // handle window resize, hide/show section content
   $(window).on("resize", function() {
    if ($(window).width() > 480) {
     $(".section-content").show().parent().removeClass("active");

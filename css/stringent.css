@@ -121,20 +121,27 @@ section {
 }
 section h2 {
  margin:0;
- color:#136;
  text-shadow:4px 4px 8px #ccc;
 }
+section h2 a:link {
+ color:#136;
+ text-decoration:none !important;
+}
 section h3 {
- margin:1em 0.5em 0;
+ margin:1.5em 0.5em 0;
  color:#778;
+ border-bottom:1px solid #f3f3ff;
 }
 section .item {
- margin:1em 1em 2em;
+ margin:1em 1.5em 2em;
  font-family:Optima,sans-serif;
  letter-spacing:0.02em;
 }
 section ul.item {
  padding-left:1em;
+}
+section ul.item li {
+ margin-bottom:0.75em;
 }
 @media (max-width:480px) {
  section .section-content {
@@ -156,7 +163,11 @@ section ul.item {
   content:"▾ ";
  }
  #contact .section-content {
+  padding:0 0.5em;
   font-size:1.25em;
+ }
+ section .item {
+  font-size:1.1em;
  }
 }
 

@@ -37,7 +37,7 @@ date_default_timezone_set('America/Chicago');
 
   <section id="products">
 
-   <h2>Products</h2>
+   <h2><a href="#products">Products</a></h2>
 
    <div class="section-content">
 
@@ -54,6 +54,11 @@ date_default_timezone_set('America/Chicago');
     <p class="item">
     <b>Idiots and Lunatics!</b><br />
      Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i>
+    </p>
+
+    <p class="item">
+    <b>Auld Golf Links</b><br />
+     Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i>
     </p>
 
    <h3>Web Apps</h3>
@@ -91,7 +96,8 @@ date_default_timezone_set('America/Chicago');
   </section>
 
   <section id="services">
-   <h2>Services</h2>
+
+   <h2><a href="#services">Services</a></h2>
 
    <div class="section-content">
 
@@ -99,8 +105,8 @@ date_default_timezone_set('America/Chicago');
 
     <ul class="item">
      <li>Specializing in Objective-C for iOS devices (iPhone, iPad, et al.)</li>
-     <li>Cross-platform development using Apache Cordova for Android, Windows Phone and Kindle Fire
-         using Web technologies</li>
+     <li>Cross-platform deployment with Apache Cordova for Android, Windows Phone and Kindle Fire
+         utilizing client-side Web technologies</li>
      <li>Embedded device firmware (ARM-based microcontrollers) in C</li>
     </ul>
 
@@ -108,7 +114,7 @@ date_default_timezone_set('America/Chicago');
 
     <ul class="item">
      <li>Responsive, mobile-first, multi-device designs with future-friendly thoughtfulness</li>
-     <li>HTML5, CSS3, JavaScript, jQuery, and dojo on the client-side</li>
+     <li>HTML5, CSS3, JavaScript, jQuery/UI/Mobile, and dojo on the client-side</li>
      <li>LAMP-based, CMS-driven: Drupal, Joomla, WordPress, Symphony2 and proprietary back-ends</li>
      <li>Custom REST APIs, secure data sharing, and remote systems management</li>
      <li>Accessibility, internationalization and localization</li>
@@ -121,7 +127,7 @@ date_default_timezone_set('America/Chicago');
 
   <section id="contact">
 
-   <h2>Contact</h2>
+   <h2><a href="#contact">Contact</a></h2>
 
    <div class="section-content">
 
