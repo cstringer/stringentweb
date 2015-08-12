@@ -11,13 +11,15 @@ date_default_timezone_set('America/Chicago');
 
   <title>Stringent Studios &middot; Software Design</title>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="google-site-verification" content="FHZR6-FrUUwa0s4U6vSuqEc9GapQ-KpAuk1xPkMVdXI" />
   <link rel="shortcut icon" href="/stringent/favicon.ico" />
   <link rel="stylesheet" href="/stringent/css/stringent.css" />
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="/stringent/js/stringent.js"></script>
+  <script src="/stringent/js/ga.js"></script>
 
  </head>
 
