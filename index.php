@@ -13,9 +13,9 @@ date_default_timezone_set('America/Chicago');
   <meta charset="utf-8" />
   <link rel="shortcut icon" href="favicon.ico" />
   <link rel="stylesheet" href="css/stringent.css" />
-	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/stringent.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/stringent.js"></script>
 
  </head>
 
@@ -68,7 +68,7 @@ date_default_timezone_set('America/Chicago');
     <p class="item">
     <b><a href="http://www.lawrenceks.org" target="_blank">City of Lawrence, Kansas</a></b><br />
      Official site for the city, winner of 
-		 <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a>
+     <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a>
     </p>
 
     <p class="item">
@@ -100,7 +100,7 @@ date_default_timezone_set('America/Chicago');
     <ul class="item">
      <li>Specializing in Objective-C for iOS devices (iPhone, iPad, et al.)</li>
      <li>Cross-platform development using Apache Cordova for Android, Windows Phone and Kindle Fire
-		     using Web technologies</li>
+         using Web technologies</li>
      <li>Embedded device firmware (ARM-based microcontrollers) in C</li>
     </ul>
 
@@ -129,11 +129,11 @@ date_default_timezone_set('America/Chicago');
     <b>Stringent Studios</b><br />
     <a href="mailto:cstringer42@gmail.com">cstringer42@gmail.com</a><br />
     +1&nbsp;785&nbsp;764&nbsp;0385<br />
-		<address>
-		 2009 Maple Ln<br/>
-		 Lawrence, KS 66046-3257<br />
-		 USA
-		</address>
+    <address>
+     2009 Maple Ln<br/>
+     Lawrence, KS 66046-3257<br />
+     USA
+    </address>
    </p>
 
    </div>
