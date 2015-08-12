@@ -37,6 +37,8 @@ date_default_timezone_set('America/Chicago');
   </ul>
   </nav>
 
+  <div id="content">
+
   <section id="products">
 
    <h2><a href="#products">Products</a></h2>
@@ -147,6 +149,8 @@ date_default_timezone_set('America/Chicago');
    </div>
 
   </section>
+
+  </div><!-- end #content -->
 
   <footer>
 
