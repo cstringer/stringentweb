@@ -1,3 +1,9 @@
+<?php
+
+// IMPORTANT - set default time zone
+date_default_timezone_set('America/Chicago');
+
+?>
 <!doctype html>
 <html>
 
@@ -5,15 +11,15 @@
 
   <title>Stringent Studios &middot; Software Design</title>
   <meta charset="utf-8" />
-  <link rel="shortcut icon" href="/stringent/favicon.ico" />
-  <link rel="stylesheet" href="/stringent/stringent.css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="css/stringent.css" />
 
  </head>
 
  <body>
 
   <header>
-   <img src="/stringent/stringent-logo.png" />
+   <img src="stringent-logo.png" />
    <h1>Stringent Studios</h1>
    <h2>Software &middot; Design</h2>
   </header>
