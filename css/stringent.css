@@ -8,14 +8,19 @@ body {
  background-color:#eef;
  background-image: linear-gradient(#f3f3f3 2px, transparent 2px),
   linear-gradient(90deg, #f3f3f3 2px, transparent 2px),
-  linear-gradient(rgba(255,255,255,0.2) 1px, transparent 1px),
-  linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+  linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px);
  background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+ background-attachment:fixed;
 }
 
 a:link, a:visited {
  color:rgb(64,128,192);
+ text-decoration:none;
+}
+a:active, a:hover {
+ text-decoration:underline;
 }
 
 header {
@@ -33,15 +38,18 @@ header img {
  width:auto;
 }
 header h1,
-header h2 {
+header .subhead {
  margin:0;
  font-weight:100;
- letter-spacing:0.03em;
+ letter-spacing:0.05em;
 }
 header h1 {
  color:#136;
  font-size:2em;
  line-height:1em;
+}
+header .subhead {
+ font-size:1.5em;
 }
 @media (max-width:480px) {
  header {
@@ -57,7 +65,7 @@ header h1 {
   padding-bottom:0;
   font-size:1.6em;
  }
- header h2 {
+ header .subhead {
   margin-top:0;
   padding-top:0;
   font-size:1.2em;
@@ -96,6 +104,7 @@ nav ul li a {
 @media (max-width:480px) {
  nav {
   padding-left:0.5em;
+	display:none;
  }
  nav ul li a {
   font-size:20px;
@@ -106,9 +115,51 @@ section {
  margin:0.5em;
  padding:1em;
  background-color:rgba(255,255,255,0.5);
+ background-image:radial-gradient(#fff,transparent);
  border:1px solid #ddf;
  border-radius:4px;
 }
+section h2 {
+ margin:0;
+ color:#136;
+ text-shadow:4px 4px 8px #ccc;
+}
+section h3 {
+ margin:1em 0.5em 0;
+ color:#778;
+}
+section .item {
+ margin:1em 1em 2em;
+ font-family:Optima,sans-serif;
+ letter-spacing:0.02em;
+}
+section ul.item {
+ padding-left:1em;
+}
+@media (max-width:480px) {
+ section .section-content {
+  display:none;
+ }
+ section.active .section-content {
+  /*display:block;*/
+ }
+ section h2 {
+	cursor:pointer;
+ }
+ section h2:before {
+  content:"▹ ";
+ }
+ section h2:hover:before {
+  content:"▸ ";
+ }
+ section.active h2:before {
+  content:"▾ ";
+ }
+ #contact .section-content {
+  font-size:1.25em;
+ }
+}
+
 
 footer {
  color:#888;
