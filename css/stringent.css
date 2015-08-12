@@ -115,7 +115,7 @@ section {
  margin:0.5em;
  padding:1em;
  background-color:rgba(255,255,255,0.5);
- background-image:radial-gradient(#fff,transparent);
+ background-image:radial-gradient(#fff,rgba(255,255,255,0.0));
  border:1px solid #ddf;
  border-radius:4px;
 }
