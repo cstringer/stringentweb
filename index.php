@@ -110,7 +110,7 @@ date_default_timezone_set('America/Chicago');
      <li>Embedded device firmware (ARM-based microcontrollers) in C</li>
     </ul>
 
-    <h3>Web Design &amp; Deveopment</h3>
+    <h3>Web Design &amp; Development</h3>
 
     <ul class="item">
      <li>Responsive, mobile-first, multi-device designs with future-friendly thoughtfulness</li>
