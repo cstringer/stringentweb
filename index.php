@@ -14,7 +14,7 @@ date_default_timezone_set('America/Chicago');
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="Developer specializing in mobile apps and websites. Based in Lawrence, Kansas, USA." />
+  <meta name="description" content="Developer specializing in mobile apps and websites. Based in Lawrence, Kansas, USA." />
 
   <link rel="shortcut icon" href="/stringent/favicon.ico" />
   <link rel="stylesheet" href="/stringent/css/stringent.css" />
@@ -29,7 +29,7 @@ date_default_timezone_set('America/Chicago');
  <body>
 
   <header>
-   <img src="/stringent/stringent-logo.png" />
+   <img src="/stringent/stringent-logo.png" alt="" />
    <h1>Stringent Studios</h1>
    <span class="subhead">Software &middot; Design</span>
   </header>
@@ -42,7 +42,7 @@ date_default_timezone_set('America/Chicago');
    </ul>
   </nav>
 
-  <article id="content">
+  <div id="content">
 
   <section id="products">
 
@@ -139,7 +139,6 @@ date_default_timezone_set('America/Chicago');
 
    <div class="section-content">
 
-   <p>
     <b>Stringent Studios</b><br />
     <a href="mailto:cstringer42@gmail.com">cstringer42@gmail.com</a><br />
     +1&nbsp;785&nbsp;764&nbsp;0385<br />
@@ -148,13 +147,12 @@ date_default_timezone_set('America/Chicago');
      Lawrence, KS 66046-3257<br />
      USA
     </address>
-   </p>
 
    </div>
 
   </section>
 
-  </article><!-- end #content -->
+  </div><!-- end #content -->
 
   <footer>
 
