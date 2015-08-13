@@ -10,12 +10,15 @@ date_default_timezone_set('America/Chicago');
  <head>
 
   <title>Stringent Studios &middot; Software Design</title>
+
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="google-site-verification" content="FHZR6-FrUUwa0s4U6vSuqEc9GapQ-KpAuk1xPkMVdXI" />
+	<meta name="description" content="Developer specializing in mobile apps and websites. Based in Lawrence, Kansas, USA." />
+
   <link rel="shortcut icon" href="/stringent/favicon.ico" />
   <link rel="stylesheet" href="/stringent/css/stringent.css" />
+
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="/stringent/js/stringent.js"></script>
@@ -36,10 +39,10 @@ date_default_timezone_set('America/Chicago');
     <li><a href="#products">Products</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#contact">Contact</a></li>
-  </ul>
+   </ul>
   </nav>
 
-  <div id="content">
+  <article id="content">
 
   <section id="products">
 
@@ -130,7 +133,6 @@ date_default_timezone_set('America/Chicago');
 
   </section>
 
-
   <section id="contact">
 
    <h2><a href="#contact">Contact</a></h2>
@@ -152,7 +154,7 @@ date_default_timezone_set('America/Chicago');
 
   </section>
 
-  </div><!-- end #content -->
+  </article><!-- end #content -->
 
   <footer>
 
