@@ -66,7 +66,7 @@ date_default_timezone_set('America/Chicago');
     </p>
 
     <p class="item">
-    <b>Auld Golf Links</b><br />
+    <b><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></b><br />
      Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i>
     </p>
 
