@@ -91,6 +91,11 @@ date_default_timezone_set('America/Chicago');
     </p>
 
     <p class="item">
+    <b><a href="http://hiredgunrms.com" target="_blank">Hired Gun RMS</a></b><br />
+     Musicians' repertoire management software
+    </p>
+
+    <p class="item">
     <b><a href="http://twinoaksgolf.us" target="_blank">Twin Oaks Golf Complex</a></b><br />
      Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas
     </p>
