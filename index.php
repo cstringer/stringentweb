@@ -53,7 +53,7 @@ date_default_timezone_set('America/Chicago');
    <h3>iOS Apps</h3>
 
     <p class="item">
-    <b><a href="http://24.124.127.203/products/telescript-tech-i" target="_blank">TeleScript TECHi for iPad</a></b><br />
+    <b><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></b><br />
      Teleprompting app and peripheral, developed for 
      <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a>
     </p>
