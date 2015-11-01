@@ -73,6 +73,11 @@ date_default_timezone_set('America/Chicago');
    <h3>Web Apps</h3>
 
     <p class="item">
+    <b><a href="http://drumchartbuilder.com" target="_blank">Drum Chart Builder</a></b><br />
+     Create, manage, and display drum charts, notation, and setlists
+    </p>
+
+    <p class="item">
     <b><a href="https://notify.lawrenceks.org" target="_blank">Notify! from the City of Lawrence</a></b><br />
      Secure web-based notifications system, alerts residents about solid waste pickup
     </p>
