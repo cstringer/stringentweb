@@ -29,7 +29,7 @@ date_default_timezone_set('America/Chicago');
  <body>
 
   <header>
-   <img src="/stringent/stringent-logo.png" alt="" />
+   <a href="/"><img src="/stringent/stringent-logo.png" alt="" /></a>
    <h1>Stringent Studios</h1>
    <span class="subhead">Software &middot; Design</span>
   </header>
@@ -50,65 +50,82 @@ date_default_timezone_set('America/Chicago');
 
    <div class="section-content">
 
-   <h3>iOS Apps</h3>
+    <div class="section-group">
 
-    <p class="item">
-    <b><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></b><br />
-     Teleprompting app and peripheral, developed for 
-     <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a>
-    </p>
+     <h3>iOS Apps</h3>
+     <p class="item">
+      <b><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></b><br />
+       Teleprompting app and peripheral, developed for 
+      <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a>
+     </p>
 
-   <h3>iOS Games</h3>
+		</div>
+		 
+    <div class="section-group">
 
-    <p class="item">
-    <b>Idiots and Lunatics!</b><br />
-     Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i>
-    </p>
+     <h3>iOS Games</h3>
 
-    <p class="item">
-    <b><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></b><br />
-     Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i>
-    </p>
+     <p class="item">
+     <b><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></b><br />
+      Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i>
+     </p>
 
-   <h3>Web Apps</h3>
+     <p class="item">
+     <b>Idiots and Lunatics!</b><br />
+      Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i>
+     </p>
 
-    <p class="item">
-    <b><a href="http://drumchartbuilder.com" target="_blank">Drum Chart Builder</a></b><br />
-     Create, manage, and display drum charts, notation, and setlists
-    </p>
+    </div>
 
-    <p class="item">
-    <b><a href="https://notify.lawrenceks.org" target="_blank">Notify! from the City of Lawrence</a></b><br />
-     Secure web-based notifications system, alerts residents about solid waste pickup
-    </p>
+    <div class="section-group">
 
-   <h3>Web Sites</h3>
+     <h3>Web Apps</h3>
 
-    <p class="item">
-    <b><a href="http://www.lawrenceks.org" target="_blank">City of Lawrence, Kansas</a></b><br />
-     Official site for the city, winner of 
-     <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a>
-    </p>
+     <p class="item">
+     <b><a href="http://drumchartbuilder.com" target="_blank">Drum Chart Builder</a></b><br />
+      Create, manage, and display drum charts, notation, and setlists
+     </p>
 
-    <p class="item">
-    <b><a href="http://24.124.127.203" target="_blank">Telescript West, Inc.</a></b><br />
-     Maker of teleprompting software systems
-    </p>
+     <p class="item">
+     <b><a href="https://notify.lawrenceks.org" target="_blank">Notify! from the City of Lawrence</a></b><br />
+      Secure web-based notifications system, alerts residents about solid waste pickup
+     </p>
 
-    <p class="item">
-    <b><a href="http://hiredgunrms.com" target="_blank">Hired Gun RMS</a></b><br />
-     Musicians' repertoire management software
-    </p>
+		</div>
 
-    <p class="item">
-    <b><a href="http://twinoaksgolf.us" target="_blank">Twin Oaks Golf Complex</a></b><br />
-     Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas
-    </p>
+    <div class="section-group">
 
-    <p class="item">
-    <b><a href="http://electronobots.com" target="_blank">ELECTRONOBOTS</a></b><br />
-     Miniature robot sculptures made from reclaimed electronic components
-    </p>
+     <h3>Web Sites</h3>
+
+     <p class="item">
+     <b><a href="http://www.lawrenceks.org" target="_blank">City of Lawrence, Kansas</a></b><br />
+      Official site for the city, winner of 
+      <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a>
+     </p>
+
+<!--
+     <p class="item">
+     <b><a href="http://24.124.127.203" target="_blank">Telescript West, Inc.</a></b><br />
+      Maker of teleprompting software systems
+     </p>
+-->
+
+     <p class="item">
+     <b><a href="http://hiredgunrms.com" target="_blank">Hired Gun RMS</a></b><br />
+      Musicians' repertoire management software
+     </p>
+
+     <p class="item">
+     <b><a href="http://twinoaksgolf.us" target="_blank">Twin Oaks Golf Complex</a></b><br />
+      Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas
+     </p>
+
+     <p class="item">
+     <b><a href="http://electronobots.com" target="_blank">ELECTRONOBOTS</a></b><br />
+      Miniature robot sculptures made from reclaimed electronic components
+     </p>
+
+		</div>
 
    </div>
 
@@ -120,24 +137,26 @@ date_default_timezone_set('America/Chicago');
 
    <div class="section-content">
 
-    <h3>Mobile Development</h3>
+    <div class="section-group">
+     <h3>Mobile Development</h3>
+     <ul class="item">
+      <li>Specializing in Objective-C for iOS devices (iPhone, iPad, et al.)</li>
+      <li>Cross-platform deployment with Apache Cordova for Android, Windows Phone and Kindle Fire
+          utilizing client-side Web technologies</li>
+      <li>Embedded device firmware (ARM-based microcontrollers) in C</li>
+     </ul>
+		</div>
 
-    <ul class="item">
-     <li>Specializing in Objective-C for iOS devices (iPhone, iPad, et al.)</li>
-     <li>Cross-platform deployment with Apache Cordova for Android, Windows Phone and Kindle Fire
-         utilizing client-side Web technologies</li>
-     <li>Embedded device firmware (ARM-based microcontrollers) in C</li>
-    </ul>
-
-    <h3>Web Design &amp; Development</h3>
-
-    <ul class="item">
-     <li>Responsive, mobile-first, multi-device designs with future-friendly thoughtfulness</li>
-     <li>HTML5, CSS3, JavaScript, jQuery/UI/Mobile, and dojo on the client-side</li>
-     <li>LAMP-based, CMS-driven: Drupal, Joomla, WordPress, Symphony2 and proprietary back-ends</li>
-     <li>Custom REST APIs, secure data sharing, and remote systems management</li>
-     <li>Accessibility, internationalization and localization</li>
-    </ul>
+    <div class="section-group">
+     <h3>Web Design &amp; Development</h3>
+     <ul class="item">
+      <li>Responsive, mobile-first, multi-device designs with future-friendly thoughtfulness</li>
+      <li>HTML5, CSS3, JavaScript, jQuery/UI/Mobile, and dojo on the client-side</li>
+      <li>LAMP-based, CMS-driven: Drupal, Joomla, WordPress, Symphony2 and proprietary back-ends</li>
+      <li>Custom REST APIs, secure data sharing, and remote systems management</li>
+      <li>Accessibility, internationalization and localization</li>
+     </ul>
+		</div>
 
    </div>
 

@@ -1,37 +1,50 @@
 (function($) {
  $(document).ready( function() {
 
-  var actElem = null;
+  var actElem = null,
+      actClass = "active",
+      widthMobile = 480
+      scScrollTime = 1000;
 
   // expand/collapse sections in reponsive mode
-  $("section h2").on("click", function() {
-   if ($(window).width() <= 480 && actElem != this) {
-    if (actElem != null) {
-     $(actElem).parent().removeClass("active").find(".section-content").slideUp('fast');
+  $("section").on("click", "h2", function() {
+   if ($(window).width() <= widthMobile) {
+    if (actElem == this) {
+     $(actElem).parent().removeClass(actClass).find(".section-content").slideUp('fast');
+     actElem = null;
+    } else if (actElem != null) {
+     $(actElem).parent().removeClass(actClass).find(".section-content").hide();
+     actElem = this;
+     $(actElem).parent().addClass(actClass).find(".section-content").slideDown('fast');
+     $("html").animate({ scrollTop: $(this).parent().offset().top }, scScrollTime);
+    } else {
+     actElem = this;
+     $(actElem).parent().addClass(actClass).find(".section-content").slideDown('fast');
+     $("html").animate({ scrollTop: $(this).parent().offset().top }, scScrollTime);
     }
-    $(this).parent().toggleClass("active").find(".section-content").slideToggle('fast');
-    $("html").animate({ scrollTop: $(this).parent().offset().top }, 1000);
-    actElem = this;
    }
+	 return false;
+  });
+
+  $("section h2").on('click', 'a', function(e) {
+   $(this).parent('h2').click();
+   e.stopPropagation();
   });
 
   // reload section by location hash
   var hash = window.location.hash.substr(1);
+	console.log(hash);
   if (hash) {
-    $("#" + hash + " h2").click();
-	} else {
-    // show contact, but don't scroll to it
-    actElem = $("#contact h2");
-		$(actElem).parent().toggleClass("active").find(".section-content").show();
+   $("#" + hash + " h2").click();
   }
 
   // handle window resize, hide/show section content
   $(window).on("resize", function() {
-   if ($(window).width() > 480) {
-    $(".section-content").show().parent().removeClass("active");
+   if ($(window).width() > widthMobile) {
+    $(".section-content").show().parent().removeClass(actClass);
     actElem = null;
    } else if (actElem == null) {
-    $(".section-content").hide().parent().removeClass("active");
+    $(".section-content").hide().parent().removeClass(actClass);
    }
   });
 
