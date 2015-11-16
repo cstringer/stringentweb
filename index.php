@@ -60,22 +60,6 @@ date_default_timezone_set('America/Chicago');
      </p>
 
 		</div>
-		 
-    <div class="section-group">
-
-     <h3>iOS Games</h3>
-
-     <p class="item">
-     <b><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></b><br />
-      Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i>
-     </p>
-
-     <p class="item">
-     <b>Idiots and Lunatics!</b><br />
-      Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i>
-     </p>
-
-    </div>
 
     <div class="section-group">
 
@@ -126,6 +110,23 @@ date_default_timezone_set('America/Chicago');
      </p>
 
 		</div>
+
+    <div class="section-group">
+
+     <h3>iOS Games</h3>
+
+     <p class="item">
+     <b><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></b><br />
+      Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i>
+     </p>
+
+     <p class="item">
+     <b>Idiots and Lunatics!</b><br />
+      Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i>
+     </p>
+
+    </div>
+
 
    </div>
 
