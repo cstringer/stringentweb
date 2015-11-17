@@ -29,9 +29,11 @@ date_default_timezone_set('America/Chicago');
  <body>
 
   <header>
-   <a href="/"><img src="/stringent/stringent-logo.png" alt="" /></a>
-   <h1>Stringent Studios</h1>
-   <span class="subhead">Software &middot; Design</span>
+   <div class="head-container">
+    <a href="/"><img src="/stringent/stringent-logo.png" alt="" /></a>
+    <h1>Stringent Studios</h1>
+    <span class="subhead">Software &middot; Design</span>
+	</div>
   </header>
 
   <nav>
@@ -52,17 +54,6 @@ date_default_timezone_set('America/Chicago');
 
     <div class="section-group">
 
-     <h3>iOS Apps</h3>
-     <p class="item">
-      <b><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></b><br />
-       Teleprompting app and peripheral, developed for 
-      <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a>
-     </p>
-
-		</div>
-
-    <div class="section-group">
-
      <h3>Web Apps</h3>
 
      <p class="item">
@@ -75,7 +66,19 @@ date_default_timezone_set('America/Chicago');
       Secure web-based notifications system, alerts residents about solid waste pickup
      </p>
 
-		</div>
+	 </div>
+
+    <div class="section-group">
+
+     <h3>iOS Apps</h3>
+     <p class="item">
+      <b><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></b><br />
+       Teleprompting app and peripheral, developed for 
+      <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a>
+     </p>
+
+	 </div>
+
 
     <div class="section-group">
 
