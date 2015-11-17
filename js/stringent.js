@@ -5,7 +5,7 @@
  @updated   2015-11-16
  @copyright &copy; Copyright 2015 by Stringent Studios. All rights reserved.
 */
-(function($) {
+(function($,ns) {
  $(document).ready( function() {
 
   var actElem = null,
@@ -15,13 +15,13 @@
 
   $("header").on('touchstart', function(e){
    $(this).hover();
-	});
+  });
 
   // expand/collapse sections in reponsive mode
   $("section h2").on('touchstart', 'a', function(e) {
    $(this).click();
-	 return false;
-	});
+   return false;
+  });
   $("section h2").on('click', 'a', function(e) {
    if ($(window).width() <= widthMobile) {
     if (actElem == this) {
@@ -37,26 +37,26 @@
      $(actElem).parents('section').addClass(actClass).find(".section-content").slideDown('fast');
      $("html").animate({ scrollTop: $(this).parent().offset().top }, scScrollTime);
     }
-		if (actElem == null) {
-		 window.history.pushState(null,"","/");
-		} else if (window.history && $(this).context.hash) {
-		 window.history.pushState(null,"",$(this).context.hash);
-		}
+    if (actElem == null) {
+     window.history.pushState(null,"","/");
+    } else if (window.history && $(this).context.hash) {
+     window.history.pushState(null,"",$(this).context.hash);
+    }
    }
    return false;
   });
 
   // reload section by location hash
-	handleHashChange();
-	$(window).on('hashchange', handleHashChange);
-	function handleHashChange() {
+  handleHashChange();
+  $(window).on('hashchange', handleHashChange);
+  function handleHashChange() {
    var hash = window.location.hash.substr(1);
    if (hash) {
     $("#" + hash + " h2 a").click();
    } else if ($(window).width() <= widthMobile) {
-	  $("#contact h2 a").click();
-	 }
-	}
+    $("#contact h2 a").click();
+   }
+  }
 
   // handle window resize, hide/show section content
   $(window).on("resize", function() {
@@ -69,4 +69,4 @@
   });
 
  });
-})(window.jQuery);
+})(window.jQuery,window);
