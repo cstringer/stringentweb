@@ -43,6 +43,8 @@ date_default_timezone_set('America/Chicago');
 	</div>
   </header>
 
+  <hr class="no-css">
+
   <nav>
    <ul>
     <li><a href="#products">Products</a></li>
@@ -50,6 +52,8 @@ date_default_timezone_set('America/Chicago');
     <li><a href="#contact">Contact</a></li>
    </ul>
   </nav>
+
+  <hr class="no-css">
 
   <div id="content">
 
@@ -63,26 +67,26 @@ date_default_timezone_set('America/Chicago');
 
      <h3>Web Apps</h3>
 
-     <p class="item">
-     <b><a href="http://drumchartbuilder.com" target="_blank">Drum Chart Builder</a></b><br>
-      Create, manage, and display drum charts, notation, and setlists
-     </p>
+     <dl class="item">
+     <dt><a href="http://drumchartbuilder.com" target="_blank">Drum Chart Builder</a></dt>
+      <dd>Create, manage, and display drum charts, notation, and setlists</dd>
+     </dl>
 
-     <p class="item">
-     <b><a href="https://notify.lawrenceks.org" target="_blank">Notify! from the City of Lawrence</a></b><br>
-      Secure web-based notifications system, alerts residents about solid waste pickup
-     </p>
+     <dl class="item">
+     <dt><a href="https://notify.lawrenceks.org" target="_blank">Notify! from the City of Lawrence</a></dt>
+      <dd>Secure web-based notifications system, alerts residents about solid waste pickup</dd>
+     </dl>
 
 	 </div>
 
     <div class="section-group">
 
      <h3>iOS Apps</h3>
-     <p class="item">
-      <b><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></b><br>
-       Teleprompting app and peripheral, developed for 
-      <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a>
-     </p>
+     <dl class="item">
+      <dt><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></dt>
+       <dd>Teleprompting app and peripheral, developed for 
+      <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a></dd>
+     </dl>
 
 	 </div>
 
@@ -91,33 +95,33 @@ date_default_timezone_set('America/Chicago');
 
      <h3>Web Sites</h3>
 
-     <p class="item">
-     <b><a href="http://www.lawrenceks.org" target="_blank">City of Lawrence, Kansas</a></b><br>
-      Official site for the city, winner of 
-      <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a>
-     </p>
+     <dl class="item">
+     <dt><a href="http://www.lawrenceks.org" target="_blank">City of Lawrence, Kansas</a></dt>
+      <dd>Official site for the city, winner of 
+      <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a></dd>
+     </dl>
 
 <!--
-     <p class="item">
-     <b><a href="http://24.124.127.203" target="_blank">Telescript West, Inc.</a></b><br>
-      Maker of teleprompting software systems
-     </p>
+     <dl class="item">
+     <dt><a href="http://24.124.127.203" target="_blank">Telescript West, Inc.</a></dt>
+      <dd>Maker of teleprompting software systems</dd>
+     </dl>
 -->
 
-     <p class="item">
-     <b><a href="http://hiredgunrms.com" target="_blank">Hired Gun RMS</a></b><br>
-      Musicians' repertoire management software
-     </p>
+     <dl class="item">
+     <dt><a href="http://hiredgunrms.com" target="_blank">Hired Gun RMS</a></dt>
+      <dd>Musicians' repertoire management software</dd>
+     </dl>
 
-     <p class="item">
-     <b><a href="http://twinoaksgolf.us" target="_blank">Twin Oaks Golf Complex</a></b><br>
-      Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas
-     </p>
+     <dl class="item">
+     <dt><a href="http://twinoaksgolf.us" target="_blank">Twin Oaks Golf Complex</a></dt>
+      <dd>Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas</dd>
+     </dl>
 
-     <p class="item">
-     <b><a href="http://electronobots.com" target="_blank">ELECTRONOBOTS</a></b><br>
-      Miniature robot sculptures made from reclaimed electronic components
-     </p>
+     <dl class="item">
+     <dt><a href="http://electronobots.com" target="_blank">ELECTRONOBOTS</a></dt>
+      <dd>Miniature robot sculptures made from reclaimed electronic components</dd>
+     </dl>
 
 		</div>
 
@@ -125,15 +129,15 @@ date_default_timezone_set('America/Chicago');
 
      <h3>iOS Games</h3>
 
-     <p class="item">
-     <b><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></b><br>
-      Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i>
-     </p>
+     <dl class="item">
+     <dt><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></dt>
+      <dd>Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i></dd>
+     </dl>
 
-     <p class="item">
-     <b>Idiots and Lunatics!</b><br>
-      Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i>
-     </p>
+     <dl class="item">
+     <dt>Idiots and Lunatics!</dt>
+      <dd>Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i></dd>
+     </dl>
 
     </div>
 
@@ -141,6 +145,8 @@ date_default_timezone_set('America/Chicago');
    </div>
 
   </section>
+
+  <hr class="no-css">
 
   <section id="services">
 
@@ -173,26 +179,32 @@ date_default_timezone_set('America/Chicago');
 
   </section>
 
+  <hr class="no-css">
+
   <section id="contact">
 
    <h2><a href="#contact">Contact</a></h2>
 
    <div class="section-content">
 
-    <b>Stringent Studios</b><br>
-    <a href="mailto:cstringer42@gmail.com">cstringer42@gmail.com</a><br>
-    +1&nbsp;785&nbsp;764&nbsp;0385<br>
-    <address>
-     2009 Maple Ln<br>
-     Lawrence, KS 66046-3257<br>
-     USA
-    </address>
+    <div class="section-group">
+     <b>Stringent Studios</b><br>
+     <a href="mailto:cstringer42@gmail.com">cstringer42@gmail.com</a><br>
+     +1&nbsp;785&nbsp;764&nbsp;0385<br>
+     <address>
+      2009 Maple Ln<br>
+      Lawrence, KS 66046-3257<br>
+      USA<br>
+     </address>
+		</div>
 
    </div>
 
   </section>
 
   </div><!-- end #content -->
+
+  <hr class="no-css">
 
   <footer>
 

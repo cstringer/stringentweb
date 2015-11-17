@@ -33,6 +33,10 @@ a:active, a:hover {
  text-decoration:underline;
 }
 
+.no-css {
+ display:none;
+}
+
 /* Header */
 
 header {
@@ -50,12 +54,12 @@ header img {
  height:6em;
  width:auto;
  border:none;
- transition:all 30s ease;
+ transition:filter 30s ease, transform 30s ease;
 }
 header:hover img {
  filter:hue-rotate(60deg);
  transform:rotate(720deg);
- transition:all 30s ease;
+ transition:filter 30s ease, transform 30s ease;
 }
 
 header h1,
@@ -65,6 +69,7 @@ header .subhead {
 }
 header h1 {
  color:#136;
+ padding-top:2px;
  font-size:2em;
  line-height:1em;
  letter-spacing:0.05em;
@@ -79,7 +84,7 @@ header .subhead {
  letter-spacing:0.25em;
 }
 
-@media (max-width:480px) {
+@media (max-width:640px) {
  header {
   padding:0.25em;
  }
@@ -139,7 +144,7 @@ nav ul li.active:before {
 nav ul li a {
  padding:0.125em 0.5em 0.125em 0;
 }
-@media (max-width:480px) {
+@media (max-width:640px) {
  nav {
   padding-left:0.5em;
   display:none;
@@ -192,6 +197,9 @@ section .section-group {
  border-radius:5px;
  transition:all 0.25s ease;
 }
+#contact .section-group {
+ padding:1em;
+}
 section .section-group:hover {
  box-shadow:1px 1px 8px rgba(128,128,128,0.45);
  transition:all 0.25s ease;
@@ -206,6 +214,17 @@ section .item {
  font-family:Optima,sans-serif;
  letter-spacing:0.02em;
 }
+
+section dt {
+ margin-bottom:0.3em;
+ border-bottom:1px dotted #eee;
+ font-size:1.1em;
+ font-weight:700;
+}
+section dd {
+ margin:0.5em 0 0 0.5em;
+}
+
 section ul.item {
  padding-left:1em;
 }
@@ -213,12 +232,9 @@ section ul.item li {
  margin-bottom:0.75em;
 }
 
-@media (max-width:480px) {
+@media (max-width:640px) {
  section .section-content {
   display:none;
- }
- section.active .section-content {
-  /*display:block;*/
  }
  section h2 {
   cursor:pointer;
@@ -239,6 +255,9 @@ section ul.item li {
  section .section-group {
   display:block;
   width:99%;
+ }
+ #contact .section-group {
+  width:90%;
  }
  section .item {
   font-size:1.1em;

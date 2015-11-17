@@ -10,40 +10,53 @@
 
   var actElem = null,
       actClass = "active",
-      widthMobile = 480
+      widthMobile = 640
       scScrollTime = 1000;
 
+  $("header").on('touchstart', function(e){
+   $(this).hover();
+	});
+
   // expand/collapse sections in reponsive mode
-  $("section").on("click", "h2", function() {
+  $("section h2").on('touchstart', 'a', function(e) {
+   $(this).click();
+	 return false;
+	});
+  $("section h2").on('click', 'a', function(e) {
    if ($(window).width() <= widthMobile) {
     if (actElem == this) {
-     $(actElem).parent().removeClass(actClass).find(".section-content").slideUp('fast');
+     $('section').removeClass(actClass).find(".section-content").slideUp('fast');
      actElem = null;
     } else if (actElem != null) {
-     $(actElem).parent().removeClass(actClass).find(".section-content").hide();
+     $('section').removeClass(actClass).find(".section-content").slideUp('fast');
      actElem = this;
-     $(actElem).parent().addClass(actClass).find(".section-content").slideDown('fast');
+     $(actElem).parents('section').addClass(actClass).find(".section-content").slideDown('fast');
      $("html").animate({ scrollTop: $(this).parent().offset().top }, scScrollTime);
     } else {
      actElem = this;
-     $(actElem).parent().addClass(actClass).find(".section-content").slideDown('fast');
+     $(actElem).parents('section').addClass(actClass).find(".section-content").slideDown('fast');
      $("html").animate({ scrollTop: $(this).parent().offset().top }, scScrollTime);
     }
+		if (actElem == null) {
+		 window.history.pushState(null,"","/");
+		} else if (window.history && $(this).context.hash) {
+		 window.history.pushState(null,"",$(this).context.hash);
+		}
    }
-	 return false;
-  });
-
-  $("section h2").on('click', 'a', function(e) {
-   $(this).parent('h2').click();
-   e.stopPropagation();
+   return false;
   });
 
   // reload section by location hash
-  var hash = window.location.hash.substr(1);
-	console.log(hash);
-  if (hash) {
-   $("#" + hash + " h2").click();
-  }
+	handleHashChange();
+	$(window).on('hashchange', handleHashChange);
+	function handleHashChange() {
+   var hash = window.location.hash.substr(1);
+   if (hash) {
+    $("#" + hash + " h2 a").click();
+   } else if ($(window).width() <= widthMobile) {
+	  $("#contact h2 a").click();
+	 }
+	}
 
   // handle window resize, hide/show section content
   $(window).on("resize", function() {
