@@ -62,12 +62,12 @@ header h1,
 header .subhead {
  margin:0;
  font-weight:100;
- letter-spacing:0.05em;
 }
 header h1 {
  color:#136;
  font-size:2em;
  line-height:1em;
+ letter-spacing:0.05em;
  transition:filter 30s ease;
 }
 header:hover h1 {
@@ -76,6 +76,7 @@ header:hover h1 {
 }
 header .subhead {
  font-size:1.5em;
+ letter-spacing:0.25em;
 }
 
 @media (max-width:480px) {
