@@ -5,19 +5,19 @@ date_default_timezone_set('America/Chicago');
 
 ?>
 <!doctype html>
-<html>
+<html lang="en">
 
  <head>
 
   <title>Stringent Studios &middot; Software Design</title>
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Developer specializing in mobile apps and websites. Based in Lawrence, Kansas, USA." />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Developer specializing in mobile apps and websites. Based in Lawrence, Kansas, USA.">
 
-  <link rel="shortcut icon" href="/stringent/favicon.ico" />
-  <link rel="stylesheet" href="/stringent/css/stringent.css" />
+  <link rel="shortcut icon" href="/stringent/favicon.ico">
+  <link rel="stylesheet" href="/stringent/css/stringent.css">
 
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -30,7 +30,7 @@ date_default_timezone_set('America/Chicago');
 
   <header>
    <div class="head-container">
-    <a href="/"><img src="/stringent/stringent-logo.png" alt="" /></a>
+    <a href="/"><img src="/stringent/stringent-logo.png" alt="[LOGO]"></a>
     <h1>Stringent Studios</h1>
     <span class="subhead">Software &middot; Design</span>
 	</div>
@@ -57,12 +57,12 @@ date_default_timezone_set('America/Chicago');
      <h3>Web Apps</h3>
 
      <p class="item">
-     <b><a href="http://drumchartbuilder.com" target="_blank">Drum Chart Builder</a></b><br />
+     <b><a href="http://drumchartbuilder.com" target="_blank">Drum Chart Builder</a></b><br>
       Create, manage, and display drum charts, notation, and setlists
      </p>
 
      <p class="item">
-     <b><a href="https://notify.lawrenceks.org" target="_blank">Notify! from the City of Lawrence</a></b><br />
+     <b><a href="https://notify.lawrenceks.org" target="_blank">Notify! from the City of Lawrence</a></b><br>
       Secure web-based notifications system, alerts residents about solid waste pickup
      </p>
 
@@ -72,7 +72,7 @@ date_default_timezone_set('America/Chicago');
 
      <h3>iOS Apps</h3>
      <p class="item">
-      <b><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></b><br />
+      <b><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></b><br>
        Teleprompting app and peripheral, developed for 
       <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a>
      </p>
@@ -85,30 +85,30 @@ date_default_timezone_set('America/Chicago');
      <h3>Web Sites</h3>
 
      <p class="item">
-     <b><a href="http://www.lawrenceks.org" target="_blank">City of Lawrence, Kansas</a></b><br />
+     <b><a href="http://www.lawrenceks.org" target="_blank">City of Lawrence, Kansas</a></b><br>
       Official site for the city, winner of 
       <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a>
      </p>
 
 <!--
      <p class="item">
-     <b><a href="http://24.124.127.203" target="_blank">Telescript West, Inc.</a></b><br />
+     <b><a href="http://24.124.127.203" target="_blank">Telescript West, Inc.</a></b><br>
       Maker of teleprompting software systems
      </p>
 -->
 
      <p class="item">
-     <b><a href="http://hiredgunrms.com" target="_blank">Hired Gun RMS</a></b><br />
+     <b><a href="http://hiredgunrms.com" target="_blank">Hired Gun RMS</a></b><br>
       Musicians' repertoire management software
      </p>
 
      <p class="item">
-     <b><a href="http://twinoaksgolf.us" target="_blank">Twin Oaks Golf Complex</a></b><br />
+     <b><a href="http://twinoaksgolf.us" target="_blank">Twin Oaks Golf Complex</a></b><br>
       Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas
      </p>
 
      <p class="item">
-     <b><a href="http://electronobots.com" target="_blank">ELECTRONOBOTS</a></b><br />
+     <b><a href="http://electronobots.com" target="_blank">ELECTRONOBOTS</a></b><br>
       Miniature robot sculptures made from reclaimed electronic components
      </p>
 
@@ -119,12 +119,12 @@ date_default_timezone_set('America/Chicago');
      <h3>iOS Games</h3>
 
      <p class="item">
-     <b><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></b><br />
+     <b><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></b><br>
       Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i>
      </p>
 
      <p class="item">
-     <b>Idiots and Lunatics!</b><br />
+     <b>Idiots and Lunatics!</b><br>
       Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i>
      </p>
 
@@ -172,12 +172,12 @@ date_default_timezone_set('America/Chicago');
 
    <div class="section-content">
 
-    <b>Stringent Studios</b><br />
-    <a href="mailto:cstringer42@gmail.com">cstringer42@gmail.com</a><br />
-    +1&nbsp;785&nbsp;764&nbsp;0385<br />
+    <b>Stringent Studios</b><br>
+    <a href="mailto:cstringer42@gmail.com">cstringer42@gmail.com</a><br>
+    +1&nbsp;785&nbsp;764&nbsp;0385<br>
     <address>
-     2009 Maple Ln<br/>
-     Lawrence, KS 66046-3257<br />
+     2009 Maple Ln<br>
+     Lawrence, KS 66046-3257<br>
      USA
     </address>
 
