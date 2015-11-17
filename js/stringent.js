@@ -1,3 +1,10 @@
+/*!
+ @abstract  Stringent Studios - Site JavaScript
+ @author    Chris Stringer (cstringer42\@gmail.com)
+ @version   1.0.2
+ @updated   2015-11-16
+ @copyright &copy; Copyright 2015 by Stringent Studios. All rights reserved.
+*/
 (function($) {
  $(document).ready( function() {
 

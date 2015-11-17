@@ -1,3 +1,11 @@
+/*!
+ @abstract  Stringent Studios - Site CSS
+ @author    Chris Stringer (cstringer42\@gmail.com)
+ @version   1.0.2
+ @updated   2015-11-16
+ @copyright &copy; Copyright 2015 by Stringent Studios. All rights reserved.
+*/
+
 /* Elements */
 
 html, body {
@@ -43,6 +51,7 @@ header img {
  width:auto;
  border:none;
  transition:all 30s ease;
+ filter:drop-shadow(0 0 12px #fff);
 }
 header:hover img {
  filter:hue-rotate(60deg);
