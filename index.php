@@ -96,6 +96,11 @@ date_default_timezone_set('America/Chicago');
      <h3>Web Sites</h3>
 
      <dl class="item">
+     <dt><a href="http://maxtronproducts.com" target="_blank">Maxtron Products</a></dt>
+      <dd>Manufacturer of broadcast and pro-AV products</dd>
+     </dl>
+
+     <dl class="item">
      <dt><a href="http://www.lawrenceks.org" target="_blank">City of Lawrence, Kansas</a></dt>
       <dd>Official site for the city, winner of 
       <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a></dd>
