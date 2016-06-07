@@ -40,7 +40,7 @@ date_default_timezone_set('America/Chicago');
     <a href="/"><img src="/stringent/stringent-logo.png" alt="[LOGO]"></a>
     <h1>Stringent Studios</h1>
     <span class="subhead">Software &middot; Design</span>
-	</div>
+  </div>
   </header>
 
   <hr class="no-css">
@@ -77,7 +77,7 @@ date_default_timezone_set('America/Chicago');
       <dd>Secure web-based notifications system, alerts residents about solid waste pickup</dd>
      </dl>
 
-	 </div>
+    </div>
 
     <div class="section-group">
 
@@ -88,8 +88,7 @@ date_default_timezone_set('America/Chicago');
       <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a></dd>
      </dl>
 
-	 </div>
-
+    </div>
 
     <div class="section-group">
 
@@ -106,13 +105,6 @@ date_default_timezone_set('America/Chicago');
       <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a></dd>
      </dl>
 
-<!--
-     <dl class="item">
-     <dt><a href="http://24.124.127.203" target="_blank">Telescript West, Inc.</a></dt>
-      <dd>Maker of teleprompting software systems</dd>
-     </dl>
--->
-
      <dl class="item">
      <dt><a href="http://hiredgunrms.com" target="_blank">Hired Gun RMS</a></dt>
       <dd>Musicians' repertoire management software</dd>
@@ -128,7 +120,7 @@ date_default_timezone_set('America/Chicago');
       <dd>Miniature robot sculptures made from reclaimed electronic components</dd>
      </dl>
 
-		</div>
+    </div>
 
     <div class="section-group">
 
@@ -146,7 +138,6 @@ date_default_timezone_set('America/Chicago');
 
     </div>
 
-
    </div>
 
   </section>
@@ -162,23 +153,23 @@ date_default_timezone_set('America/Chicago');
     <div class="section-group">
      <h3>Mobile Development</h3>
      <ul class="item">
-      <li>Specializing in Objective-C for iOS devices (iPhone, iPad, et al.)</li>
-      <li>Cross-platform deployment with Apache Cordova for Android, Windows Phone and Kindle Fire
-          utilizing client-side Web technologies</li>
-      <li>Embedded device firmware (ARM-based microcontrollers) in C</li>
+      <li>Specializing in Objective-C for iOS devices (iPhone, iPad, et al.) using XCode and related tools</li>
+      <li>Cross-platform deployment with Apache Cordova/PhoneGap for desktops, Android, 
+          Windows Phone and Blackberry 10 utilizing client-side WebDev technologies</li>
+      <li>Embedded device firmware (ARM-based microcontrollers) in C with LPCXpresso</li>
      </ul>
-		</div>
+    </div>
 
     <div class="section-group">
      <h3>Web Design &amp; Development</h3>
      <ul class="item">
       <li>Responsive, mobile-first, multi-device designs with future-friendly thoughtfulness</li>
-      <li>HTML5, CSS3, JavaScript, jQuery/UI/Mobile, and dojo on the client-side</li>
+      <li>HTML5, CSS3, JavaScript, jQuery/UI/Mobile, Bootstrap and dojo on the client-side</li>
       <li>LAMP-based, CMS-driven: Drupal, Joomla, WordPress, Symphony2 and proprietary back-ends</li>
       <li>Custom REST APIs, secure data sharing, and remote systems management</li>
-      <li>Accessibility, internationalization and localization</li>
+      <li>Section 508 accessibility, internationalization and localization</li>
      </ul>
-		</div>
+    </div>
 
    </div>
 
@@ -201,7 +192,7 @@ date_default_timezone_set('America/Chicago');
       Lawrence, KS 66046-3257<br>
       USA<br>
      </address>
-		</div>
+    </div>
 
    </div>
 
@@ -215,7 +206,7 @@ date_default_timezone_set('America/Chicago');
 
    <p>&copy; copyright <?php echo date("Y"); ?> stringent studios. all rights reserved.</p>
 
-   <p>This site available <a href="https://github.com/cstringer/stringentweb" target="_blank">open source on GitHub</a>.</p>
+   <p>site source available <a href="https://github.com/cstringer/stringentweb" target="_blank">on GitHub</a>.</p>
 
   </footer>
 
