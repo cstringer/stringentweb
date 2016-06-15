@@ -35,7 +35,7 @@ date_default_timezone_set('America/Chicago');
 
  <body>
 
-  <header>
+  <header tabindex="0">
    <div class="head-container">
     <a href="/" tabindex="0"><img src="/stringent/stringent-logo.png" alt="[LOGO]"></a>
     <h1>Stringent Studios</h1>
@@ -57,34 +57,34 @@ date_default_timezone_set('America/Chicago');
 
   <div id="content">
 
-  <section id="products">
+  <section id="products" tabindex="0">
 
-   <h2><a href="#products" tabindex="0">Products</a></h2>
+   <h2><a href="#products">Products</a></h2>
 
    <div class="section-content">
 
     <div class="section-group">
 
-     <h3>Web Apps</h3>
+     <h3 tabindex="0">Web Apps</h3>
 
      <dl class="item">
      <dt><a href="http://drumchartbuilder.com" target="_blank" tabindex="0">Drum Chart Builder</a></dt>
-      <dd>Create, manage, and display drum charts, notation, and setlists</dd>
+      <dd tabindex="0">Create, manage, and display drum charts, notation, and setlists</dd>
      </dl>
 
      <dl class="item">
      <dt><a href="https://notify.lawrenceks.org" target="_blank" tabindex="0">Notify! from the City of Lawrence</a></dt>
-      <dd>Secure web-based notifications system, alerts residents about solid waste pickup</dd>
+      <dd tabindex="0">Secure web-based notifications system, alerts residents about solid waste pickup</dd>
      </dl>
 
     </div>
 
     <div class="section-group">
 
-     <h3>iOS Apps</h3>
+     <h3 tabindex="0">iOS Apps</h3>
      <dl class="item">
       <dt><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank" tabindex="0">TeleScript TECHi for iPad</a></dt>
-       <dd>Teleprompting app and peripheral, developed for 
+       <dd tabindex="0">Teleprompting app and peripheral, developed for 
       <a href="http://www.telescriptwest.com" target="_blank" tabindex="0">Telescript West, Inc.</a></dd>
      </dl>
 
@@ -92,48 +92,48 @@ date_default_timezone_set('America/Chicago');
 
     <div class="section-group">
 
-     <h3>Web Sites</h3>
+     <h3 tabindex="0">Web Sites</h3>
 
      <dl class="item">
      <dt><a href="http://maxtronproducts.com" target="_blank" tabindex="0">Maxtron Products</a></dt>
-      <dd>Manufacturer of broadcast and pro-AV products</dd>
+      <dd tabindex="0">Manufacturer of broadcast and pro-AV products</dd>
      </dl>
 
      <dl class="item">
      <dt><a href="http://www.lawrenceks.org" target="_blank" tabindex="0">City of Lawrence, Kansas</a></dt>
-      <dd>Official site for the city, winner of 
+      <dd tabindex="0">Official site for the city, winner of 
       <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank" tabindex="0">2014 NAGW Pinnacle Award</a></dd>
      </dl>
 
      <dl class="item">
      <dt><a href="http://hiredgunrms.com" target="_blank" tabindex="0">Hired Gun RMS</a></dt>
-      <dd>Musicians' repertoire management software</dd>
+      <dd tabindex="0">Musicians' repertoire management software</dd>
      </dl>
 
      <dl class="item">
      <dt><a href="http://twinoaksgolf.us" target="_blank" tabindex="0">Twin Oaks Golf Complex</a></dt>
-      <dd>Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas</dd>
+      <dd tabindex="0">Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas</dd>
      </dl>
 
      <dl class="item">
      <dt><a href="http://electronobots.com" target="_blank" tabindex="0">ELECTRONOBOTS</a></dt>
-      <dd>Miniature robot sculptures made from reclaimed electronic components</dd>
+      <dd tabindex="0">Miniature robot sculptures made from reclaimed electronic components</dd>
      </dl>
 
     </div>
 
     <div class="section-group">
 
-     <h3>iOS Games</h3>
+     <h3 tabindex="0">iOS Games</h3>
 
      <dl class="item">
      <dt><a href="http://auldgolflinks.com" target="_blank" tabindex="0">Auld Golf Links</a></dt>
-      <dd>Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i></dd>
+      <dd tabindex="0">Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i></dd>
      </dl>
 
      <dl class="item">
      <dt>Idiots and Lunatics!</dt>
-      <dd>Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i></dd>
+      <dd tabindex="0">Arcade driving game for iPad, iPhone and iPod Touch <i>(in development)</i></dd>
      </dl>
 
     </div>
@@ -144,30 +144,30 @@ date_default_timezone_set('America/Chicago');
 
   <hr class="no-css">
 
-  <section id="services">
+  <section id="services" tabindex="0">
 
-   <h2><a href="#services" tabindex="0">Services</a></h2>
+   <h2><a href="#services">Services</a></h2>
 
    <div class="section-content">
 
     <div class="section-group">
-     <h3>Mobile Development</h3>
+     <h3 tabindex="0">Mobile Development</h3>
      <ul class="item">
-      <li>Specializing in Objective-C for iOS devices (iPhone, iPad, et al.) using XCode and related tools</li>
-      <li>Cross-platform deployment with Apache Cordova/PhoneGap for desktops, Android, 
+      <li tabindex="0">Specializing in Objective-C for iOS devices (iPhone, iPad, et al.) using XCode and related tools</li>
+      <li tabindex="0">Cross-platform deployment with Apache Cordova/PhoneGap for desktops, Android, 
           Windows Phone and Blackberry 10 utilizing client-side WebDev technologies</li>
-      <li>Embedded device firmware (ARM-based microcontrollers) in C with LPCXpresso</li>
+      <li tabindex="0">Embedded device firmware (ARM-based microcontrollers) in C with LPCXpresso</li>
      </ul>
     </div>
 
     <div class="section-group">
-     <h3>Web Design &amp; Development</h3>
+     <h3 tabindex="0">Web Design &amp; Development</h3>
      <ul class="item">
-      <li>Responsive, mobile-first, multi-device designs with future-friendly thoughtfulness</li>
-      <li>HTML5, CSS3, JavaScript, jQuery/UI/Mobile, Bootstrap and dojo on the client-side</li>
-      <li>LAMP-based, CMS-driven: Drupal, Joomla, WordPress, Symphony2 and proprietary back-ends</li>
-      <li>Custom REST APIs, secure data sharing, and remote systems management</li>
-      <li>Section 508 accessibility, internationalization and localization</li>
+      <li tabindex="0">Responsive, mobile-first, multi-device designs with future-friendly thoughtfulness</li>
+      <li tabindex="0">HTML5, CSS3, JavaScript, jQuery/UI/Mobile, Bootstrap and dojo on the client-side</li>
+      <li tabindex="0">LAMP-based, CMS-driven: Drupal, Joomla, WordPress, Symphony2 and proprietary back-ends</li>
+      <li tabindex="0">Custom REST APIs, secure data sharing, and remote systems management</li>
+      <li tabindex="0">Section 508 accessibility, internationalization and localization</li>
      </ul>
     </div>
 
@@ -177,17 +177,17 @@ date_default_timezone_set('America/Chicago');
 
   <hr class="no-css">
 
-  <section id="contact">
+  <section id="contact" tabindex="0">
 
-   <h2><a href="#contact" tabindex="0">Contact</a></h2>
+   <h2><a href="#contact">Contact</a></h2>
 
    <div class="section-content">
 
-    <div class="section-group">
+    <div class="section-group" tabindex="0">
      <b>Stringent Studios</b><br>
      <a href="mailto:cstringer42@gmail.com" tabindex="0">cstringer42@gmail.com</a><br>
      +1&nbsp;785&nbsp;764&nbsp;0385<br>
-     <address>
+     <address tabindex="0">
       2009 Maple Ln<br>
       Lawrence, KS 66046-3257<br>
       USA<br>
@@ -202,11 +202,11 @@ date_default_timezone_set('America/Chicago');
 
   <hr class="no-css">
 
-  <footer>
+  <footer tabindex="0">
 
-   <p>&copy; copyright <?php echo date("Y"); ?> stringent studios. all rights reserved.</p>
+   <p tabindex="0">&copy; copyright <?php echo date("Y"); ?> stringent studios. all rights reserved.</p>
 
-   <p>site source available <a href="https://github.com/cstringer/stringentweb" target="_blank" tabindex="0">on GitHub</a>.</p>
+   <p tabindex="0">site source available <a href="https://github.com/cstringer/stringentweb" target="_blank" tabindex="0">on GitHub</a>.</p>
 
   </footer>
 
