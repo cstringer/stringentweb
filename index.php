@@ -37,7 +37,7 @@ date_default_timezone_set('America/Chicago');
 
   <header>
    <div class="head-container">
-    <a href="/"><img src="/stringent/stringent-logo.png" alt="[LOGO]"></a>
+    <a href="/" tabindex="1"><img src="/stringent/stringent-logo.png" alt="[LOGO]"></a>
     <h1>Stringent Studios</h1>
     <span class="subhead">Software &middot; Design</span>
   </div>
@@ -47,9 +47,9 @@ date_default_timezone_set('America/Chicago');
 
   <nav>
    <ul>
-    <li><a href="#products">Products</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#products" tabindex="2">Products</a></li>
+    <li><a href="#services" tabindex="3">Services</a></li>
+    <li><a href="#contact" tabindex="4">Contact</a></li>
    </ul>
   </nav>
 
@@ -59,7 +59,7 @@ date_default_timezone_set('America/Chicago');
 
   <section id="products">
 
-   <h2><a href="#products">Products</a></h2>
+   <h2><a href="#products" tabindex="5">Products</a></h2>
 
    <div class="section-content">
 
@@ -68,12 +68,12 @@ date_default_timezone_set('America/Chicago');
      <h3>Web Apps</h3>
 
      <dl class="item">
-     <dt><a href="http://drumchartbuilder.com" target="_blank">Drum Chart Builder</a></dt>
+     <dt><a href="http://drumchartbuilder.com" target="_blank" tabindex="6">Drum Chart Builder</a></dt>
       <dd>Create, manage, and display drum charts, notation, and setlists</dd>
      </dl>
 
      <dl class="item">
-     <dt><a href="https://notify.lawrenceks.org" target="_blank">Notify! from the City of Lawrence</a></dt>
+     <dt><a href="https://notify.lawrenceks.org" target="_blank" tabindex="7">Notify! from the City of Lawrence</a></dt>
       <dd>Secure web-based notifications system, alerts residents about solid waste pickup</dd>
      </dl>
 
@@ -83,9 +83,9 @@ date_default_timezone_set('America/Chicago');
 
      <h3>iOS Apps</h3>
      <dl class="item">
-      <dt><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank">TeleScript TECHi for iPad</a></dt>
+      <dt><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank" tabindex="8">TeleScript TECHi for iPad</a></dt>
        <dd>Teleprompting app and peripheral, developed for 
-      <a href="http://www.telescriptwest.com" target="_blank">Telescript West, Inc.</a></dd>
+      <a href="http://www.telescriptwest.com" target="_blank" tabindex="9">Telescript West, Inc.</a></dd>
      </dl>
 
     </div>
@@ -95,28 +95,28 @@ date_default_timezone_set('America/Chicago');
      <h3>Web Sites</h3>
 
      <dl class="item">
-     <dt><a href="http://maxtronproducts.com" target="_blank">Maxtron Products</a></dt>
+     <dt><a href="http://maxtronproducts.com" target="_blank" tabindex="10">Maxtron Products</a></dt>
       <dd>Manufacturer of broadcast and pro-AV products</dd>
      </dl>
 
      <dl class="item">
-     <dt><a href="http://www.lawrenceks.org" target="_blank">City of Lawrence, Kansas</a></dt>
+     <dt><a href="http://www.lawrenceks.org" target="_blank" tabindex="11">City of Lawrence, Kansas</a></dt>
       <dd>Official site for the city, winner of 
-      <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank">2014 NAGW Pinnacle Award</a></dd>
+      <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank" tabindex="12">2014 NAGW Pinnacle Award</a></dd>
      </dl>
 
      <dl class="item">
-     <dt><a href="http://hiredgunrms.com" target="_blank">Hired Gun RMS</a></dt>
+     <dt><a href="http://hiredgunrms.com" target="_blank" tabindex="13">Hired Gun RMS</a></dt>
       <dd>Musicians' repertoire management software</dd>
      </dl>
 
      <dl class="item">
-     <dt><a href="http://twinoaksgolf.us" target="_blank">Twin Oaks Golf Complex</a></dt>
+     <dt><a href="http://twinoaksgolf.us" target="_blank" tabindex="14">Twin Oaks Golf Complex</a></dt>
       <dd>Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas</dd>
      </dl>
 
      <dl class="item">
-     <dt><a href="http://electronobots.com" target="_blank">ELECTRONOBOTS</a></dt>
+     <dt><a href="http://electronobots.com" target="_blank" tabindex="15">ELECTRONOBOTS</a></dt>
       <dd>Miniature robot sculptures made from reclaimed electronic components</dd>
      </dl>
 
@@ -127,7 +127,7 @@ date_default_timezone_set('America/Chicago');
      <h3>iOS Games</h3>
 
      <dl class="item">
-     <dt><a href="http://auldgolflinks.com" target="_blank">Auld Golf Links</a></dt>
+     <dt><a href="http://auldgolflinks.com" target="_blank" tabindex="16">Auld Golf Links</a></dt>
       <dd>Scottish-themed arcade golf game for iPad, iPhone and iPod Touch <i>(in development)</i></dd>
      </dl>
 
@@ -146,7 +146,7 @@ date_default_timezone_set('America/Chicago');
 
   <section id="services">
 
-   <h2><a href="#services">Services</a></h2>
+   <h2><a href="#services" tabindex="17">Services</a></h2>
 
    <div class="section-content">
 
@@ -179,13 +179,13 @@ date_default_timezone_set('America/Chicago');
 
   <section id="contact">
 
-   <h2><a href="#contact">Contact</a></h2>
+   <h2><a href="#contact" tabindex="18">Contact</a></h2>
 
    <div class="section-content">
 
     <div class="section-group">
      <b>Stringent Studios</b><br>
-     <a href="mailto:cstringer42@gmail.com">cstringer42@gmail.com</a><br>
+     <a href="mailto:cstringer42@gmail.com" tabindex="19">cstringer42@gmail.com</a><br>
      +1&nbsp;785&nbsp;764&nbsp;0385<br>
      <address>
       2009 Maple Ln<br>
@@ -206,7 +206,7 @@ date_default_timezone_set('America/Chicago');
 
    <p>&copy; copyright <?php echo date("Y"); ?> stringent studios. all rights reserved.</p>
 
-   <p>site source available <a href="https://github.com/cstringer/stringentweb" target="_blank">on GitHub</a>.</p>
+   <p>site source available <a href="https://github.com/cstringer/stringentweb" target="_blank" tabindex="20">on GitHub</a>.</p>
 
   </footer>
 
