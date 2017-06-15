@@ -100,7 +100,7 @@ date_default_timezone_set('America/Chicago');
      </dl>
 
      <dl class="item">
-     <dt><a href="http://www.lawrenceks.org" target="_blank" tabindex="0">City of Lawrence, Kansas</a></dt>
+     <dt><a href="http://web.archive.org/web/20150204212136/http://www.lawrenceks.org/" target="_blank" tabindex="0">City of Lawrence, Kansas</a></dt>
       <dd tabindex="0">Official site for the city, winner of 
       <a href="https://nagw.org/news/2014/09/14/2014-nagw-pinnacle-award-winners-announced" target="_blank" tabindex="0">2014 NAGW Pinnacle Award</a></dd>
      </dl>
@@ -111,7 +111,7 @@ date_default_timezone_set('America/Chicago');
      </dl>
 
      <dl class="item">
-     <dt><a href="http://twinoaksgolf.us" target="_blank" tabindex="0">Twin Oaks Golf Complex</a></dt>
+     <dt><a href="http://twinoaksgolfks.com" target="_blank" tabindex="0">Twin Oaks Golf Complex</a></dt>
       <dd tabindex="0">Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas</dd>
      </dl>
 
