@@ -5,7 +5,7 @@
  @version   1.0.2
  @updated   2015-11-16
  @copyright &copy; Copyright 2015 by Stringent Studios. All rights reserved.
-*/
+ */
 
 // IMPORTANT - set the default time zone
 date_default_timezone_set('America/Chicago');
@@ -73,7 +73,7 @@ date_default_timezone_set('America/Chicago');
      </dl>
 
      <dl class="item">
-     <dt><a href="https://notify.lawrenceks.org" target="_blank" tabindex="0">Notify! from the City of Lawrence</a></dt>
+     <dt><a href="https://web.archive.org/web/20170210175003/https://notify.lawrenceks.org/" target="_blank" tabindex="0">Notify! from the City of Lawrence</a></dt>
       <dd tabindex="0">Secure web-based notifications system, alerts residents about solid waste pickup</dd>
      </dl>
 
@@ -82,10 +82,16 @@ date_default_timezone_set('America/Chicago');
     <div class="section-group">
 
      <h3 tabindex="0">iOS Apps</h3>
+
      <dl class="item">
       <dt><a href="http://www.telescriptwest.com/telescriptwest-U042412/products/telescript_techi_details.html" target="_blank" tabindex="0">TeleScript TECHi for iPad</a></dt>
        <dd tabindex="0">Teleprompting app and peripheral, developed for 
       <a href="http://www.telescriptwest.com" target="_blank" tabindex="0">Telescript West, Inc.</a></dd>
+     </dl>
+
+     <dl class="item">
+      <dt><a href="https://itunes.apple.com/us/app/drum-chart-viewer/id1258372853?mt=8" target="_blank" tabindex="0">Drum Chart Viewer</a></dt>
+       <dd tabindex="0">Companion app for Drum Chart Builder users</dd>
      </dl>
 
     </div>
@@ -95,8 +101,9 @@ date_default_timezone_set('America/Chicago');
      <h3 tabindex="0">Web Sites</h3>
 
      <dl class="item">
-     <dt><a href="http://maxtronproducts.com" target="_blank" tabindex="0">Maxtron Products</a></dt>
-      <dd tabindex="0">Manufacturer of broadcast and pro-AV products</dd>
+     <dt><a href="http://twinoaksgolfks.com" target="_blank" tabindex="0">Twin Oaks Golf Complex</a></dt>
+      <dd tabindex="0">Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas
+        &mdash; <i>source available on <a href="https://github.com/cstringer/Twin-Oaks-Website" target="_blank">GitHub</a></i></dd>
      </dl>
 
      <dl class="item">
@@ -106,13 +113,13 @@ date_default_timezone_set('America/Chicago');
      </dl>
 
      <dl class="item">
-     <dt><a href="http://hiredgunrms.com" target="_blank" tabindex="0">Hired Gun RMS</a></dt>
-      <dd tabindex="0">Musicians' repertoire management software</dd>
+     <dt><a href="http://maxtronproducts.com" target="_blank" tabindex="0">Maxtron Products</a></dt>
+      <dd tabindex="0">Manufacturer of broadcast and pro-AV products</dd>
      </dl>
 
      <dl class="item">
-     <dt><a href="http://twinoaksgolfks.com" target="_blank" tabindex="0">Twin Oaks Golf Complex</a></dt>
-      <dd tabindex="0">Driving range and pitch-and-putt golf course, serving Lawrence and Eudora, Kansas</dd>
+     <dt><a href="http://hiredgunrms.com" target="_blank" tabindex="0">Hired Gun RMS</a></dt>
+      <dd tabindex="0">Musicians' repertoire management software</dd>
      </dl>
 
      <dl class="item">
@@ -124,7 +131,13 @@ date_default_timezone_set('America/Chicago');
 
     <div class="section-group">
 
-     <h3 tabindex="0">iOS Games</h3>
+     <h3 tabindex="0">Games</h3>
+
+     <dl class="item">
+     <dt><a href="https://cstringer.github.io/MetaTicTacToe/" target="_blank" tabindex="0">Meta TicTacToe (MT<sup>3</sup>)</a></dt>
+      <dd tabindex="0">HTML/JavaScript implementation of "meta" (a.k.a. "super") tic-tac-toe
+        &mdash; <i>source available on <a href="https://github.com/cstringer/MetaTicTacToe" target="_blank">GitHub</a></i></dd>
+     </dl>
 
      <dl class="item">
      <dt><a href="http://auldgolflinks.com" target="_blank" tabindex="0">Auld Golf Links</a></dt>
@@ -151,11 +164,11 @@ date_default_timezone_set('America/Chicago');
    <div class="section-content">
 
     <div class="section-group">
-     <h3 tabindex="0">Mobile Development</h3>
+     <h3 tabindex="0">App Development</h3>
      <ul class="item">
-      <li tabindex="0">Specializing in Objective-C for iOS devices (iPhone, iPad, et al.) using XCode and related tools</li>
-      <li tabindex="0">Cross-platform deployment with Apache Cordova/PhoneGap for desktops, Android, 
-          Windows Phone and Blackberry 10 utilizing client-side WebDev technologies</li>
+      <li tabindex="0">Objective-C for Apple devices using XCode and related tools</li>
+      <li tabindex="0">Cross-platform: Apache Cordova/PhoneGap using JavaScript SPA</li>
+      <li tabindex="0">Windows Win32 and DirectX in C/C++ with VisualStudio</li>
       <li tabindex="0">Embedded device firmware (ARM-based microcontrollers) in C with LPCXpresso</li>
      </ul>
     </div>
@@ -166,8 +179,8 @@ date_default_timezone_set('America/Chicago');
       <li tabindex="0">Responsive, mobile-first, multi-device designs with future-friendly thoughtfulness</li>
       <li tabindex="0">HTML5, CSS3, JavaScript, jQuery/UI/Mobile, Bootstrap and dojo on the client-side</li>
       <li tabindex="0">LAMP-based, CMS-driven: Drupal, Joomla, WordPress, Symphony2 and proprietary back-ends</li>
-      <li tabindex="0">Custom REST APIs, secure data sharing, and remote systems management</li>
-      <li tabindex="0">Section 508 accessibility, internationalization and localization</li>
+      <li tabindex="0">REST APIs, secure data sharing, and remote systems management</li>
+      <li tabindex="0">Accessibility, internationalization and localization</li>
      </ul>
     </div>
 
@@ -188,9 +201,7 @@ date_default_timezone_set('America/Chicago');
      <a href="mailto:cstringer42@gmail.com" tabindex="0">cstringer42@gmail.com</a><br>
      +1&nbsp;785&nbsp;764&nbsp;0385<br>
      <address tabindex="0">
-      2009 Maple Ln<br>
-      Lawrence, KS 66046-3257<br>
-      USA<br>
+      Lawrence,&nbsp;KS,&nbsp;USA
      </address>
     </div>
 
