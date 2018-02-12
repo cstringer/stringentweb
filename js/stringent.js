@@ -1,72 +1,151 @@
 /*!
  @abstract  Stringent Studios - Site JavaScript
  @author    Chris Stringer (cstringer42\@gmail.com)
- @version   1.0.2
- @updated   2015-11-16
- @copyright &copy; Copyright 2015 by Stringent Studios. All rights reserved.
-*/
-(function($,ns) {
- $(document).ready( function() {
+ @version   1.0.3
+ @updated   2018-02-11
+ @copyright &copy; Copyright 2018 by Stringent Studios. All rights reserved.
+ */
+(function($) {
 
-  var actElem = null,
-      actClass = "active",
-      widthMobile = 640
-      scScrollTime = 1000;
+  var activeElement = null,
 
-  $("header").on('touchstart', function(e){
-   $(this).hover();
-  });
+    // CSS classes
+    cls = {
+      active: "active"
+    },
 
-  // expand/collapse sections in reponsive mode
-  $("section h2").on('touchstart', 'a', function(e) {
-   $(this).click();
-   return false;
-  });
-  $("section h2").on('click', 'a', function(e) {
-   if ($(window).width() <= widthMobile) {
-    if (actElem == this) {
-     $('section').removeClass(actClass).find(".section-content").slideUp('fast');
-     actElem = null;
-    } else if (actElem != null) {
-     $('section').removeClass(actClass).find(".section-content").slideUp('fast');
-     actElem = this;
-     $(actElem).parents('section').addClass(actClass).find(".section-content").slideDown('fast');
-     $("html").animate({ scrollTop: $(this).parent().offset().top }, scScrollTime);
-    } else {
-     actElem = this;
-     $(actElem).parents('section').addClass(actClass).find(".section-content").slideDown('fast');
-     $("html").animate({ scrollTop: $(this).parent().offset().top }, scScrollTime);
-    }
-    if (actElem == null) {
-     window.history.pushState(null,"","/");
-    } else if (window.history && $(this).context.hash) {
-     window.history.pushState(null,"",$(this).context.hash);
-    }
-   }
-   return false;
-  });
+    // selectors
+    sels = {
+      animateParent: "html",
+      defaultSect: "#contact",
+      header: "header",
+      section: "section",
+      sectionContent: ".section-content",
+      sectionHeader: "section h2",
+      sectionLink: "h2 a"
+    },
 
-  // reload section by location hash
-  handleHashChange();
-  $(window).on('hashchange', handleHashChange);
-  function handleHashChange() {
-   var hash = window.location.hash.substr(1);
-   if (hash) {
-    $("#" + hash + " h2 a").click();
-   } else if ($(window).width() <= widthMobile) {
-    $("#contact h2 a").click();
-   }
+    // scroll to element animate time
+    scScrollTime = 1000,
+
+    // mobile width "breakpoint"
+    widthMobile = 640;
+
+  // fire init on DOM ready
+  $(document).ready(init);
+
+  function init() {
+    // handle interesting events on window    
+    $(window).on('hashchange', handleHashChange);
+    $(window).on("resize", handleWindowResize);
+
+    // handle clicks/touches on header elements
+    $(sels.header).on('touchstart', handleHeaderTouch);
+    $(sels.sectionHeader).on('touchstart', 'a', handleSectionHeaderTouch);
+    $(sels.sectionHeader).on('click', 'a', handleSectionHeaderClick);
+
+    // set initial view by hash location
+    handleHashChange();
   }
 
-  // handle window resize, hide/show section content
-  $(window).on("resize", function() {
-   if ($(window).width() > widthMobile) {
-    $(".section-content").show().parent().removeClass(actClass);
-    actElem = null;
-   } else if (actElem == null) {
-    $(".section-content").hide().parent().removeClass(actClass);
-   }
-  });
+  /** handleHeaderTouch */
+  function handleHeaderTouch(e){
+    // mimic a hover
+    $(e.target).hover();
+  }
 
- });
-})(window.jQuery,window);
+  /** handleSectionHeaderTouch */
+  function handleSectionHeaderTouch(e) {
+    // mimic a click
+    $(e.target).click();
+    return false;
+  }
+
+  /** handleSectionHeaderClick */
+  function handleSectionHeaderClick(e) {
+    if ($(window).width() > widthMobile) { return false; }
+
+    if (activeElement == e.target) {
+      // active section clicked: hide it
+      hideAllSections();
+      activeElement = null;
+
+    } else if (activeElement != null) {
+      // different section clicked: hide previous, show new
+      hideAllSections();
+      activeElement = e.target;
+      showElSection(activeElement);
+      scrollToElement(activeElement);
+
+    } else {
+      // show the clicked section
+      activeElement = e.target;
+      showElSection(activeElement);
+      scrollToElement(activeElement);
+    }
+
+    // update window history
+    window.history.pushState(
+      null,
+      "",
+      (activeElement == null) ? "/" : $(e.target).context.hash
+    );
+
+    return false;
+  }
+
+  /** hideAllSections */
+  function hideAllSections() {
+    $(sels.section)
+      .removeClass(cls.active)
+      .find(sels.sectionContent)
+        .slideUp('fast');
+  }
+
+  /** showElSection */
+  function showElSection(el) {
+    $(el)
+      .parents(sels.section)
+      .addClass(cls.active)
+      .find(sels.sectionContent)
+        .slideDown('fast');
+  }
+
+  /** scrollToElement */
+  function scrollToElement(el) {
+    $(sels.animateParent).animate({
+      scrollTop: $(el).parent().offset().top
+    }, scScrollTime);
+  }
+
+  /** reload section by location hash */
+  function handleHashChange() {
+    var hash = window.location.hash.substr(1),
+      sectSel = '';
+
+    if (hash) {
+      sectSel = "#" + hash;
+    } else if ($(window).width() <= widthMobile) {
+      sectSel = sels.defaultSect;
+    }
+
+    if (sectSel) {
+      $(sectSel + " " + sels.sectionLink).click();
+    }
+  }
+
+  /** handleWindowResize */
+  function handleWindowResize() {
+    var $sectContent = $(sels.sectionContent);
+
+    $sectContent.parent().removeClass(cls.active);
+
+    if ($(window).width() > widthMobile) {
+      $sectContent.show();
+      activeElement = null;
+    } else if (activeElement == null) {
+      $sectContent.hide();
+    }
+  }
+
+})(window.jQuery);
