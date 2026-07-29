@@ -22,7 +22,8 @@
       section: "section",
       sectionContent: ".section-content",
       sectionHeader: "section h2",
-      sectionLink: "h2 a"
+      sectionLink: "h2 a",
+      year: "#year"
     },
 
     // scroll to element animate time
@@ -43,6 +44,8 @@
     $(sels.header).on('touchstart', handleHeaderTouch);
     $(sels.sectionHeader).on('touchstart', 'a', handleSectionHeaderTouch);
     $(sels.sectionHeader).on('click', 'a', handleSectionHeaderClick);
+
+    $(sels.year).text(new Date().getFullYear());
 
     // set initial view by hash location
     handleHashChange();
