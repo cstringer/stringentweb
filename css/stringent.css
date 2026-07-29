@@ -11,7 +11,7 @@
  --ink: #22364d;
  --ink-soft: #5a6d82;
  --accent: #11798f;
- --accent-warm: #d84f3f;
+ --accent-warm: #130f2b;
  --paper: #f5f9ff;
  --surface: rgba(255, 255, 255, 0.88);
  --surface-strong: #ffffff;
@@ -35,10 +35,7 @@ body {
  font-family: "Manrope", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
  color: var(--ink);
  line-height: 1.6;
- background:
-  radial-gradient(1200px 600px at 95% -10%, rgba(17, 121, 143, 0.28), transparent 65%),
-  radial-gradient(700px 420px at 0% 0%, rgba(216, 79, 63, 0.16), transparent 72%),
-  linear-gradient(170deg, #eef5ff 0%, #f8fbff 50%, #f3f9ff 100%);
+ background: #ffffff;
  min-height: 100vh;
 }
 
@@ -68,12 +65,6 @@ header .head-container {
  max-width: 1080px;
  margin: 0 auto;
  padding: 1.3rem;
- border: 1px solid rgba(255, 255, 255, 0.45);
- border-radius: calc(var(--radius) + 4px);
- background:
-  linear-gradient(125deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.72)),
-  linear-gradient(125deg, rgba(17, 121, 143, 0.08), rgba(216, 79, 63, 0.07));
- box-shadow: var(--shadow-soft);
  display: grid;
  grid-template-columns: auto minmax(0, 1fr);
  gap: 1.25rem;
@@ -121,7 +112,7 @@ nav {
  z-index: 10;
  backdrop-filter: blur(8px);
  background: linear-gradient(90deg, rgba(248, 252, 255, 0.95), rgba(240, 248, 255, 0.8));
- border-top: 1px solid rgba(255, 255, 255, 0.6);
+ border-top: 1px solid var(--line);
  border-bottom: 1px solid var(--line);
 }
 
@@ -203,10 +194,14 @@ section .section-content {
 
 section .section-group {
  margin: 0;
+ margin-bottom: 0.5em;
  padding: 0;
  border: 1px solid rgba(20, 40, 70, 0.1);
  border-radius: calc(var(--radius) - 4px);
- background: var(--surface-strong);
+ background:
+  radial-gradient(720px 340px at 100% 0%, rgba(17, 121, 143, 0.16), transparent 68%),
+  radial-gradient(480px 260px at 0% 0%, rgba(58, 35, 103, 0.14), transparent 70%),
+  var(--surface-strong);
  box-shadow: 0 8px 22px rgba(15, 33, 52, 0.06);
  overflow: hidden;
  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
@@ -222,7 +217,7 @@ section h3 {
  margin: 0;
  padding: 0.85rem 1rem;
  color: var(--ink-strong);
- background: linear-gradient(90deg, rgba(17, 121, 143, 0.12), rgba(216, 79, 63, 0.1));
+ background: linear-gradient(90deg, rgba(17, 121, 143, 0.12), rgba(58, 35, 103, 0.14));
  border-bottom: 1px solid var(--line);
  font-size: 1rem;
  letter-spacing: 0.03em;
